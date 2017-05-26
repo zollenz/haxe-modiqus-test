@@ -1,0 +1,12 @@
+{
+    "splash" : {
+        "frame_size":{ "x":"32", "y":"32" },
+        "frameset": [
+            "1", "hold 30", 
+            "2-8",          
+            "9", "hold 30"
+        ],
+        "loop": "false",
+        "speed": "60"
+    }
+}

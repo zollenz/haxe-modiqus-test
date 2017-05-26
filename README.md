@@ -1,2 +1,2 @@
 # haxe-modiqus-test
-Testing native extern library modiqus
+Testing the native extern library linc_modiqus

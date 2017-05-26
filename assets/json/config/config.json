@@ -1,0 +1,11 @@
+{
+	"window": {
+      "width":160,
+      "height":144,
+      "title":"Luxe Template",
+      "fullscreen":false,
+      "resizable":false,
+      "borderless":false
+    },
+	"game_scale":4
+}

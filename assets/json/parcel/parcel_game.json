@@ -1,0 +1,19 @@
+{
+    "textures" : [
+        { "id" : "assets/img/smiley.png", "filter_min" : "nearest", "filter_mag" : "nearest" },
+        { "id" : "assets/img/ui/button_normal.png", "filter_min" : "nearest", "filter_mag" : "nearest" },
+        { "id" : "assets/img/ui/button_pressed.png", "filter_min" : "nearest", "filter_mag" : "nearest" },
+        { "id" : "assets/img/simple_8x8_tiles.png", "filter_min" : "nearest", "filter_mag" : "nearest" }  
+    ],
+    "fonts" : [
+        { "id" : "assets/font/justabit/justabit32.fnt" }
+    ],            
+    "sounds" : [
+        { "id" : "assets/audio/steppin.wav", "name" : "steppin", "is_stream" : false }
+    ],
+    "text" : [
+        { "id" : "assets/text/simple_160x144_8x8_map.tmx" }
+    ],
+    "json" : [
+    ]    
+}

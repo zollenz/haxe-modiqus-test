@@ -1,0 +1,31 @@
+{
+  snow : {
+    config: {
+      config_path: 'assets/json/config/config.json'
+    }
+  },
+  project : {
+    name : 'haxe-modiqus-test',
+    version : '1.0.0',
+    author : 'miosis',
+    app : {
+      main : 'luxetemplate.Main',
+      name : 'haxe-modiqus-test',
+      package : 'luxetemplate'
+    },
+    build : {
+      defines:['MACOSX_VER=10.12'],
+      flags:['--macro luxe.Log.level(2)'],
+      dependencies : {
+        luxe : '*',
+        mint : '*',
+        linc_modiqus:'*'
+      }
+    },
+    files : {
+      csound : 'csound',
+      frameworks : 'Frameworks => ../Frameworks',
+      assets : 'assets/'
+    }
+  }
+}
